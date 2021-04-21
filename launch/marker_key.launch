@@ -1,0 +1,4 @@
+<launch>
+    <rosparam file="$(find marker_key)/config/markers.yaml" />
+    <node pkg="marker_key" type="marker_key.py" name="marker_key" output="screen" />
+</launch>
